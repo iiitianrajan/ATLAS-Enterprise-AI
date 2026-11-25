@@ -182,7 +182,7 @@ python -m pip install -r requirements.txt
 Copy `.env.example` to `.env`, then update the values for your environment:
 
 ```dotenv
-AWS_REGION=us-east-1
+AWS_REGION=ap-southeast-2
 S3_BUCKET=your-private-document-bucket
 BEDROCK_EMBED_MODEL=amazon.titan-embed-text-v2:0
 BEDROCK_CHAT_MODEL=amazon.nova-lite-v1:0
@@ -191,7 +191,7 @@ EMBED_DIM=1024
 PINECONE_API_KEY=your-pinecone-key
 PINECONE_INDEX_NAME=atlas-rag-index
 PINECONE_CLOUD=aws
-PINECONE_REGION=us-east-1
+PINECONE_REGION=ap-southeast-2
 
 DATABASE_URL=postgresql://USER:PASSWORD@HOST/DATABASE?sslmode=require
 
@@ -280,7 +280,7 @@ Add the following repository **Variables** under `Settings → Secrets and varia
 
 | Name | Example |
 | --- | --- |
-| `AWS_REGION` | `us-east-1` |
+| `AWS_REGION` | `ap-southeast-2` |
 | `ECR_REPOSITORY_NAME` | `atlas-enterprise-ai` |
 
 Add this repository **Secret**:
@@ -413,7 +413,6 @@ Issues and pull requests are welcome where enabled. For substantial changes, des
 
 ## License
 
-**License not yet specified.** Add a `LICENSE` file and update this section if you intend to release the repository under an open-source license.
 
 ---
 
